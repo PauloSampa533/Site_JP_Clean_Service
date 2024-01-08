@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+/*css da pagina inicio*/
+body{
+
+    background: linear-gradient(
+        to right,
+    
+        #0070a8,
+        #67859e3d 50%,
+        #0070a8
+    );
+}
+.container{
+    max-width: 1000px;
+    margin: 0%auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+background-color: #0070a8;
+width: 100%;
+
+}
+
+.logo,img{
+    width: 30%;
+    border-radius: 80px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.menu{
+   width: 100%; 
+
+}
+.menu nav a{
+   color: #ffffff; 
+   text-decoration: none;
+   padding-right: 40px;
+   font-size: 28px;
+   position: relative;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 9px;
+    background-image: linear-gradient(45deg,#00C2Cb,#0070a8,#00C2Cb);
+    position: absolute;
+    top: 35px;
+    left: 0;
+    transition: width 0.4s;
+}
+.menu nav a:hover::after{
+    width:100px;
+}
+
+#sofa{
+    padding-left: 400px;
+    width: 90%;
+}
+
+div h1{
+    font-size: 55px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+div h2{
+    font-size: 64px;
+    margin-bottom: 55px;
+    padding-left: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:white;
+    color:#0070a8;
+}
+#externa{
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding-left: 100px;
+    background-color:#fcfcfc;
+    color: #0070a8;
+    
+}
+#img1{
+    width: 350px;
+    height: 350px;
+    margin-left: 150px;
+    
+    border-style: solid;
+    border-width: 10px;
+    border-color:#00C2CB;
+    border-radius: 10px;
+    
+}
+#img2{
+    width: 350px;
+    height: 350px;
+    margin-left: 35px;
+    border-style: solid;
+    border-width:10px;
+    border-color:#00C2CB;
+    border-radius: 10px;
+}
+#img3{
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 35px;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#00C2CB;
+    border-radius: 10px;
+
+}
+#h2-classli1{
+    
+    margin-left: -30px;
+
+
+}
+#h2classli2{
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.li{
+    font-size: 28px;
+    margin-left: 28px;
+    color:#ffffff;
+    margin-top: 50px;
+}
+#header-final{
+    background-color:#ffffff8a;
+    border-style: solid;
+    border-color: #0070a8;
+    border-width: 8px;
+    
+    
+}
+#header-somos{
+    font-size: 68px;
+    text-align: center;
+    color:#0070a8;
+    margin-top: 30px;
+
+}
+p {
+    font-size: 25px;
+    text-align: center;
+    color:#0070a8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+}
+#img-somos{
+    width: 90%;
+    border-style:dashed;
+    margin-left: 70px;
+    border-width: 10px;
+    border-color: #0070a8;
+    margin-bottom: 0px;
+}
+
+.fim{
+    margin-top:50px;
+}
+/*css pagina quem somos*/
+#logo-quemsomos{
+    margin-left: 60px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #0070a8;
+    border-width: 5px;
+    width: 12%;
+    margin-bottom: 20px;
+}
+#missão-qs{
+    font-size: 80px;
+    text-align: center;
+    background-color:#0070a838;
+    color: #fcfcfc;
+    
+    
+    
+
+
+}
+#p{
+    color: #0070a8;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+    
+
+    
+
